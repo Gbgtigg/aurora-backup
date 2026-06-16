@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Lupin</name>
+		<update version="0.2.2">
+			<file name="race-lupin.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/races/race-LUPIN.xml" />
+		</update>
+	</info>
+	<element name="Lupin" type="Race" source="Dungeon Dad" id="ID_RACE_LUPIN">
+		<description>
+			<p class="flavor">Humanoid creatures covered in fur with canine heads, the lupin dominate the steppes and forests where their nomadic packs roam. Their culture is built around honour, loyalty, and friendship, but woe be to those who cross them with deception or steel.</p>
+			<h4>CONTESTED HISTORIES</h4>
+			<p>The origin of the lupin race is a topic that not even the lupin themselves can be certain of. The oldest tales of lupin packs speak of a time where the lupin and werewolf races were one and the same, however, the lupin descend from lycanthropes who cast off the chaos of their monthly murderous sprees in order to become somethign more. A sophisticated race, fully in control of both body and mind. Other lupin scholars have more recently proposed a radical theory based on what little written history of the lupin people exists. This new theory suggests that the lupin race came from a union of humans and gnolls, and that early lupins became famed werewolf hunters in order to prove to their fearful human neighbours that they indeed were not werewolves. The objective truth may never be truly known as the vast majority of lupin culture is passed down orally, and therefore the question lingers still.</p>
+			<h4>WEREWOLF HUNTERS</h4>
+			<p>Lupins are experts in the field of hunting lycanthropes, specifically, werewolves. The act of hunting and killing werewolves has always been of great significance and bears a nearly spiritual significance amongst the lupin packs. Once a child reaches maturity, they are immediately taken into the fold of lupin hunters and taught the ways of hunting werewolves following an initiation rite known as the Moonset. Werewolves are seen as a mockery of lupin kind. The death and destruction they spread reflects poorly on lupin communities, as many other races often mistake lupins for werewolves from a distance. The murderous tendancies of werewolves also goes directly against the friendly and charitable outlook held by most lupin communities, and as such, werewolves are seen as abominations which must be destroyed.</p>
+			<h4>NOMADIC PACKS</h4>
+			<p>Lupins typically live in communities consisting of three to fifteen packs consisting of two to twelve individuals (and several pups). These communities practice strict egalitarian democracy and usually operate without an individual leader, though elders in the community can often sway the votes of younger members. Once per year, the overall community selects a representative from among the packs’ elders as a spokesperson. This post is only ever held for one year and cannot be selected again until an elder from every other pack in the community has acted as spokesperson.Once per year, the selected spokesperson and any of the youths within the community who wish to go travel to a gathering of other lupin representatives from nearby communities called a White Howl. This White Howl acts as both a meeting for important discussion among the elders and as a chance for young lupins to find companions from outside the community in an effort to intertwine the overall lupin people with bonds of friendship, rivalry, and love. Once the important aspects of the Whit Howl have been attended to, it often turns into a three week long celebration.</p>
+			<h4>THE ETERNAL FLAME</h4>
+			<p>Each lupin community is liable to wander within their territory to a degree, however, they do construct villages composed of wooden longhouses typically built in a radial pattern surrounding a public space. In the centre of this space, the lupins maintain a continuous flame known as a bg’tyr. Even when the tribe moves from its village to wander for long periods of time, a single member of the community, usually an adolescent,  always remains behind to tend the flame and ensure it doesn’t go out. These individuals are referred to as flame keepers, and often grow up to prominence as one of the lupin communities’ spiritual leaders.</p>
+			<h4>AH'FLIR</h4>
+			<p>The week of the full moon is an important and sacred time for lupins. During the three days when the moon is brightest, accomplished lupin werewolf hunters (called hruffs) from all the packs in a region gather together and form a temporary pack of their own called an ah’flir. These ah’flir packs have the specific purpose of hunting down and killing as many lycanthropes as possible, especially werewolves.</p>
+			<h4>Lupin TRAITS</h4>
+			<p>Your Lupin character has certain traits deriving from your canine ancestry.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> When determining your character’s ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1.</p>
+            <p class="indent"><strong><em>Creature Type</em></strong> You are a Beast and a Humanoid</p>
+			<p class="indent"><strong><em>Age.</em></strong> Lupins mature at about the same rate as humans, except that they reach adulthood in their early teens. They typically live to an age between 80 and 100 years.</p>
+			<!-- (removed in Errata v3.0) -->
+			<!-- <p class="indent"><strong><em>Alignment.</em></strong>Their strong belief in community, loyalty, and trust mark lupins as highly lawful creatures. Generosity and pity for those less fortunate also define many of the lupin cultural values, however, they are known to hold grudges and and often refuse to aid those who have wronged them in the past. Most lupins tend to be lawful good or lawful neutral, though there are always exceptions.</p> -->
+			<p class="indent"><strong><em>Size.</em></strong> Lupins come in sizes roughly similar to dwarves and humans, but tend toward a sturdy build. You are Medium or Small. You choose the size when you gain this race.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of grey.</p>
+			<p class="indent"><strong><em>Lupine Senses.</em></strong> Whenever you make an ability check that relies on hearing or smell, you are considered proficient with the skill. You have advantage on any ability check you make to track a creature or object.</p>
+			<p class="indent"><strong><em>Bite.</em></strong> Your jaws are a natural weapon that you can use to make melee attacks. On a hit your bite deals piercing damage equal to 1d6 + your Strength modifier.</p>
+			<p class="indent"><strong><em>Fierce Loyalty.</em></strong> When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to make the attack target you instead.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common, Lupin, and one other language of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Dench, Feng, Gell, Henk, Holg, Imsh, Keth, Krusk, Mhurren, Ront, Shump, Thokk</set>
+			<set name="names" type="female">Baggi, Emen, Engong, Kansif, Myev, Neega, Ovak, Ownka, Shautha, Sutha, Vola, Volen, Yevelda</set>
+			<set name="names-format">{{name}}</set>
+			<set name="height" modifier="2d10">4'10"</set>
+			<set name="weight" modifier="2d6">140 lb.</set>
+		</setters>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Improvement Option (Lupin)" supports="Custom Ability Score Improvement Option" />
+			<stat name="innate speed" value="30" bonus="base"/>
+			<select type="Racial Trait" name="Size (Lupin)" supports="ID_INTERNAL_RACIAL_TRAIT_SMALL|ID_INTERNAL_RACIAL_TRAIT_MEDIUM" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" requirements="!ID_INTERNAL_GRANTS_DRAGONMARK" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LUPINE_SENSES" requirements="!ID_WOTC_WGTE_GRANTS_DARKMARKED,!ID_INTERNAL_GRANTS_DRAGONMARK"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BITE" requirements="!ID_WOTC_WGTE_GRANTS_DARKMARKED,!ID_INTERNAL_GRANTS_DRAGONMARK"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FIERCE_LOYALTY" requirements="!ID_WOTC_WGTE_GRANTS_DARKMARKED,!ID_INTERNAL_GRANTS_DRAGONMARK"/>
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_LUPINE" requirements="!ID_INTERNAL_GRANTS_DRAGONMARK,!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+		</rules>
+	</element>	
+	<element name="Lupine Senses" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_LUPINE_SENSES">
+		<description>
+			<p>Whenever you make an ability check that relies on hearing or smell, you are considered proficient with the skill. You have advantage on any ability check you make to track a creature or object.</p>
+		</description>
+		<sheet display="true">
+			<description>Whenever you make an ability check that relies on hearing or smell, you are considered proficient with the skill. You have advantage on any ability check you make to track a creature or object.</description>
+		</sheet>
+	</element>
+	<element name="Bite" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_BITE">
+		<description>
+			<p>Your jaws are a natural weapon that you can use to make melee attacks. On a hit your bite deals piercing damage equal to 1d6 + your Strength modifier.</p>
+		</description>
+		<sheet display="true">
+			<description>Your jaws are a natural weapon that you can use to make melee attacks. On a hit your bite deals piercing damage equal to 1d6 + your Strength modifier.</description>
+		</sheet>
+	</element>
+	<element name="Fierce Loyalty" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_FIERCE_LOYALTY">
+		<description>
+			<p>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to make the attack target you instead.</p>
+		</description>
+		<sheet>
+			<description>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to make the attack target you instead.</description>
+		</sheet>
+	</element>
+	<element name="Lupine" type="Language" source="Homebrew" id="ID_LANGUAGE_LUPINE">
+		<supports>Exotic</supports>
+		<description>
+				<p>Typically spoken by Lupin.</p>
+		</description>
+		<setters>
+				<set name="exotic">true</set>
+				<set name="speakers">Lupin</set>
+				<set name="script">LUPINE</set>
+		</setters>
+	</element>
+</elements>

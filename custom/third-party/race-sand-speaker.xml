@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Sand Speaker</name>
+		<update version="0.0.1">
+			<file name="race-sand-speaker.xml" url="PLACEHOLDER" />
+		</update>
+	</info>
+
+	<element name="Sand Speaker" type="Race" source="Arcadia" id="ID_MCDM_ARCADIA_RACE_SAND_SPEAKER">
+		<description>
+			<p class="flavor">Formed from the sands of island shores in the astral sea, sand speakers look like sauntering humanoid sculptures stretched from dyed glass. They infiltrate the minds of creatures in their sleep, acting as prophetic messengers and so-called “thought thieves” on behalf of extraplanar entities.</p>
+			<h4>CHILDREN OF THE SANDS</h4>
+			<p>Before recorded time, archangels warred with aberrations at the bounds of the multiverse, where astral sands slowly spilled into nothingness. Led by Oneirus the Eternal, the angels sought to drive back the unfathomable evils and prevent the aberrations from disrupting their divine works. During a cataclysmic battle, Oneirus’ radiant fire scorched the iridescent sand, giving it form and infusing it with life. Humanoid figures of molten glass, the original sand speakers, rose from the astral desert and knelt before the archangel.</p>
+			<p class="indent">Oneirus invited each sand speaker to pledge themselves to a righteous cause and return with the angels to the celestial host. Many accepted and became prophetic messengers, while others decided to explore their newfound freedom, wandering the sands like interplanar nomads. Some, however, were tempted by unintelligible whispers emanating from the Abyss, rejecting Oneirus in favor of maleficent beings lurking beyond the sands.</p>
+			<h4>EXTRAPLANAR EMISSARIES</h4>
+			<p>Despite their smooth complexion, sand speakers are composed of millions of tiny granules suffused with cosmic energy. Sand speakers travel the multiverse in service to meddling archfey, imprisoned fiends, and forgotten deities hoping to reassert their godhood. Some conduct divine outreach as heralds, while others tempt sleeping souls on behalf of ambitious devils. A sand speaker might appear before a belligerent zealot, chastising their actions in hopes of averting a holy crusade without a single casualty.</p>
+			<p class="indent">Some sand speakers, called thought thieves, engage in subconscious subterfuge, slipping into the minds of influential figures to steal precious secrets or plant the seed of an idea in hopes of prompting action in the material world. Expert thought thieves are graceful shadows, sneaking past the defenses of well-guarded noble estates, fortified prisons, and the magically warded towers of paranoid mages.</p>
+			<p class="indent">The ability to dream walk is both a blessing and a curse. Distrusted as violators of the unconscious mind, sand speakers carry a stigma wherever they go.</p>
+			<h4>PERPETUAL VAGABONDS</h4>
+			<p>Sand speakers typically relocate after appearing in a creature’s dreams to avoid scrutiny. While some prefer hidden lairs on the outskirts of civilizations or adopt a regular disguise, most sand speakers are vagabonds, constantly on the move to minimize the odds of being recognized by a former target. Sand speaker societies are rare, and take the form of caravans or mobile camps.</p>
+			<h4>BOUNDLESS PERSPECTIVE</h4>
+			<p>By the time a sand speaker reaches maturity, they have seen dozens of dreams. However, a sand speaker’s ability comes at a price: the first time that they dream walk, they can no longer have dreams of their own. Instead, they must live vicariously through the fantasies of others, beholding the wonder of the unrestrained mind but tasting none of its fruits for themselves.</p>
+			<p class="indent">Dream walks inspire sand speakers to explore the real world. To a sand speaker, each dream is an illusion— alluring, foreign, and hollow. They observe delicious foods, wondrous curiosities, and breathtaking landscapes imagined by dreamers. Sand speakers chase these visions during their waking hours, venturing out into the world in search of iconic landmarks, gourmet recipes, and famous individuals that inspired dreams they’ve visited.</p>
+			<h4>SAND SPEAKER PERSONALITIES</h4>
+			<p>Though sand speakers lose the ability to have new dreams after their first dream walk, they can still relive old ones. In sand speaker culture, these old dreams are symbols of fate called omens. Typically, the same omen recurs for weeks, months, or years. A sand speaker has no control over which omen they experience each night and always recalls it perfectly upon waking. Like tarot card readings or casting runes, a sand speaker draws meaning from their omen, believing it holds some hidden clue to their destiny.</p>
+			<p class="indent">The Sand Speaker Omens table displays possible omens for your character, while the Sand Speaker Quirks table contains specific quirks to help you portray them.</p>
+			<table>
+				<thead>
+					<tr><td class="col-8">d8</td><td>Sand Speaker Omens</td></tr>
+				</thead>
+				<tr><td>1</td><td>My omen involves a vault filled with treasures from a distant land.</td></tr>
+				<tr><td>2</td><td>My omen involves a simple memory with a loved one who's no longer around.</td></tr>
+				<tr><td>3</td><td>My omen involves a recurring symbol which I do not recognize.</td></tr>
+				<tr><td>4</td><td>My omen involves a battle against a formidable foe.</td></tr>
+				<tr><td>5</td><td>My omen involves a mysterious creature.</td></tr>
+				<tr><td>6</td><td>My omen involves a famous person I've never actually met.</td></tr>
+				<tr><td>7</td><td>My omen involves a test of great importance</td></tr>
+				<tr><td>8</td><td>My omen involves a horrible nightmare.</td></tr>
+			</table>
+			<table>
+				<thead>
+					<tr><td class="col-8">d8</td><td>Sand Speaker Quirks</td></tr>
+				</thead>
+				<tr><td>1</td><td>Your body is shaped like a round-bottom flask.</td></tr>
+				<tr><td>2</td><td>Sand shifts beneath your glassy skin, changing color to reflect your mood.</td></tr>
+				<tr><td>3</td><td>You have a phobia of water.</td></tr>
+				<tr><td>4</td><td>When someone wrongs you or your companions, you discretely fill their belonings with sand.</td></tr>
+				<tr><td>5</td><td>You are a thrill seeker, chasing the passion you've witnessed in others' dreams.</td></tr>
+				<tr><td>6</td><td>You look for meaning in every action or symbol.</td></tr>
+				<tr><td>7</td><td>Others often mistake you for someone they know.</td></tr>
+				<tr><td>8</td><td>You talk in your sleep. Very loudly.</td></tr>
+			</table>
+			<h4>SAND SPEAKER NAMES</h4>
+			<p>Each sand speaker has a single name, determined by a motif found in their first dream walk. Sand speaker names are gender-neutral.</p>
+			<p>
+				<b>Example Sand Speaker Names:</b>Caress, Dance, Drown, Fall, Run, Song, Spider, Teeth, Whisper.<br/>
+			</p>
+
+			<h4>SAND SPEAKER TRAITS</h4>
+			<p>Your sand speaker character has the following racial traits.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity, Wisdom, and Charisma scores each increase by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Sand speakers reach maturity at the same rate as humans. On average, they live about 300 years.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Sand speakers tend towards lawful neutral. Tapping into the subconscious minds of other creatures gives sand speakers a sense of perspective. They see creatures in their most vulnerable states, witnessing their brightest hopes, deepest desires, and darkest fears.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Sand speakers have smooth, elongated features. They range from 6 to 8 feet tall and weigh between 150 and 250 pounds. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Sandform.</em></strong> As an action, you, along with everything you are wearing and carrying, transform into fine sand for 1 minute. This effect ends if you are reduced to 0 hit points.</p>
+			<p class="indent">While in this form, you retain your walking speed and lose all other movement speeds you have. You can move through a space as narrow as 1 inch wide without squeezing.</p>
+			<p class="indent">You gain resistance to nonmagical damage. You can’t talk or manipulate objects, and any objects you were carrying or holding can’t be dropped, used, or otherwise interacted with. You can’t attack or cast spells.</p>
+			<p class="indent">Once you use this trait, you can’t do so again until you finish a long rest.</p>
+			<p class="indent"><strong><em>Oneiromancy.</em></strong> You know the message cantrip. When you reach 3rd level, you can cast the sleep spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the silence spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
+			<p class="indent"><strong><em>Dream Walk.</em></strong> As an action, choose a sleeping creature that you can see within 10 feet of you. You enter a trance state for up to 8 hours, acting as a messenger. While in the trance, you are aware of your surroundings, but can’t take actions or move.</p>
+			<p class="indent">You appear in the target’s dreams and can converse with it as long as it remains asleep, for the duration of your trance. If the target wakes during your trance for any reason, your trance immediately ends. You can’t shape the target’s dreams or alter your appearance when you dream walk—you are only a visitor. You can emerge from the trance at any time, ending this effect early. The target recalls the dream perfectly upon waking</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and one other language of your choice.</p>
+		</description>
+		<sheet display="false"/>
+		<setters>
+			<set name="names" type="example">Caress, Dance, Drown, Fall, Run, Song, Spider, Teeth, Whisper</set>
+			<set name="names-format">{{example}}</set>   
+			<set name="height" modifier="2d6">7'0"</set>
+			<set name="weight" modifier="2d10">280 lb.</set>    
+		</setters>
+		<rules>
+			<stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Sand Speaker)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Sand Speaker)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Sand Speaker)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Language (Sand Speaker)" supports="Standard||Exotic"/>
+			<grant type="Racial Trait" id="ID_MCDM_ARCADIA_RACIAL_TRAIT_SAND_SPEAKER_SANDFORM" />
+			<grant type="Racial Trait" id="ID_MCDM_ARCADIA_RACIAL_TRAIT_SAND_SPEAKER_ONEIROMANCY" />
+			<grant type="Racial Trait" id="ID_MCDM_ARCADIA_RACIAL_TRAIT_SAND_SPEAKER_DREAM_WALK" />
+		</rules>
+	</element>
+
+	<element name="Sandform" type="Racial Trait" source="Arcadia" id="ID_MCDM_ARCADIA_RACIAL_TRAIT_SAND_SPEAKER_SANDFORM">
+		<description>
+			<p>As an action, you, along with everything you are wearing and carrying, transform into fine sand for 1 minute. This effect ends if you are reduced to 0 hit points.</p>
+			<p class="indent">While in this form, you retain your walking speed and lose all other movement speeds you have. You can move through a space as narrow as 1 inch wide without squeezing.</p>
+			<p class="indent">You gain resistance to nonmagical damage. You can’t talk or manipulate objects, and any objects you were carrying or holding can’t be dropped, used, or otherwise interacted with. You can’t attack or cast spells.</p>
+			<p class="indent">Once you use this trait, you can’t do so again until you finish a long rest.</p>
+		</description>
+		<sheet>
+			<description>As an action, you, along with everything you are wearing and carrying, transform into fine sand for 1 minute. This effect ends if you are reduced to 0 hit points. While in this form, you retain your walking speed and lose all other movement speeds you have. You can move through a space as narrow as 1 inch wide without squeezing. You gain resistance to nonmagical damage. You can’t talk or manipulate objects, and any objects you were carrying or holding can’t be dropped, used, or otherwise interacted with. You can’t attack or cast spells. Once you use this trait, you can’t do so again until you finish a long rest.</description>
+		</sheet>
+	</element>
+
+	<element name="Oneiromancy" type="Racial Trait" source="Arcadia" id="ID_MCDM_ARCADIA_RACIAL_TRAIT_SAND_SPEAKER_ONEIROMANCY">
+		<description>
+			<p>You know the message cantrip. When you reach 3rd level, You can cast the sleep spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the silence spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet>
+			<description>You know the message cantrip. Charisma is your spellcasting ability for these spells.</description>
+			<description level="3">You know the message cantrip. You can cast the sleep spell once per long rest. Charisma is your spellcasting ability for these spells.</description>
+			<description level="5">You know the message cantrip. You can cast the sleep spell once per long rest. You can cast the silence spell once per long rest. Charisma is your spellcasting ability for these spells.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_MESSAGE" />
+			<grant type="Spell" id="ID_PHB_SPELL_SLEEP" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_SILENCE" level="5"/>
+		</rules>
+	</element>
+
+	<element name="Dream Walk" type="Racial Trait" source="Arcadia" id="ID_MCDM_ARCADIA_RACIAL_TRAIT_SAND_SPEAKER_DREAM_WALK">
+		<description>
+			<p>As an action, choose a sleeping creature that you can see within 10 feet of you. You enter a trance state for up to 8 hours, acting as a messenger. While in the trance, you are aware of your surroundings, but can’t take actions or move.</p>
+			<p class="indent">You appear in the target’s dreams and can converse with it as long as it remains asleep, for the duration of your trance. If the target wakes during your trance for any reason, your trance immediately ends. You can’t shape the target’s dreams or alter your appearance when you dream walk—you are only a visitor. You can emerge from the trance at any time, ending this effect early. The target recalls the dream perfectly upon waking</p>
+		</description>
+		<sheet>
+			<description>As an action, choose a sleeping creature that you can see within 10 feet of you. You enter a trance state for up to 8 hours, acting as a messenger. While in the trance, you are aware of your surroundings, but can’t take actions or move. You appear in the target’s dreams and can converse with it as long as it remains asleep, for the duration of your trance. If the target wakes during your trance for any reason, your trance immediately ends. You can’t shape the target’s dreams or alter your appearance when you dream walk—you are only a visitor. You can emerge from the trance at any time, ending this effect early. The target recalls the dream perfectly upon waking.</description>
+		</sheet>
+	</element>
+
+</elements>
