@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="Kefnet" type="Deity" source="Plane Shift: Amonket" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_PLANE_SHIFT_AMONKHET_DEITY_KEFNET">
+		<description>
+			<html>&lt;p class="flavor"&gt;Ibis-headed Amonkhet god of Knowledge&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="setting">Amonket</set>
+			<set name="alignment">LN</set>
+			<set name="domains">Knowledge</set>
+			<set name="symbol">Ibis</set>
+			<set name="gender">male</set>
+		</setters>
+		<sheet>
+			<description>Ibis-headed god of knowledge</description>
+		</sheet>
+	</element>
+	<element name="Rhonas" type="Deity" source="Plane Shift: Amonket" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_PLANE_SHIFT_AMONKHET_DEITY_RHONAS">
+		<description>
+			<html>&lt;p class="flavor"&gt;Cobra-headed Amonkhet god of Strength&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="setting">Amonket</set>
+			<set name="alignment">LN</set>
+			<set name="domains">Strength</set>
+			<set name="symbol">Cobra</set>
+			<set name="gender">male</set>
+		</setters>
+		<sheet>
+			<description>Cobra-headed god of Strength</description>
+		</sheet>
+	</element>
+	<element name="Oketra" type="Deity" source="Plane Shift: Amonket" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_PLANE_SHIFT_AMONKHET_DEITY_OKETRA">
+		<description>
+			<html>&lt;p class="flavor"&gt;Cat-headed Amonkhet god of Solidarity&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="setting">Amonket</set>
+			<set name="alignment">LG</set>
+			<set name="domains">Solidarity </set>
+			<set name="symbol">Cat</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>Cat-headed god of knowledge</description>
+		</sheet>
+	</element>
+	<element name="Bontu" type="Deity" source="Plane Shift: Amonket" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_PLANE_SHIFT_AMONKHET_DEITY_BONTU">
+		<description>
+			<html>&lt;p class="flavor"&gt;Jackal-headed Amonkhet god of Zeal&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="setting">Amonket</set>
+			<set name="alignment">LE</set>
+			<set name="domains">Ambition</set>
+			<set name="symbol">Crocodile</set>
+			<set name="gender">male</set>
+		</setters>
+		<sheet>
+			<description>Crocodile-headed god of knowledge</description>
+		</sheet>
+	</element>
+	<element name="Hazoret" type="Deity" source="Plane Shift: Amonket" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_PLANE_SHIFT_AMONKHET_DEITY_HAZORET">
+		<description>
+			<html>&lt;p class="flavor"&gt;Jackal-headed Amonkhet god of Zeal&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="setting">Amonket</set>
+			<set name="alignment">LE</set>
+			<set name="domains">Zeal</set>
+			<set name="symbol">Jackal</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>Jackal-headed god of Zeal</description>
+		</sheet>
+	</element>
+</elements>

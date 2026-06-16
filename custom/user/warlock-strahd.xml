@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="Strahd, Lord of Barovia" type="Archetype" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_OTHERWORLDLY_PATRON_STRAHD">
+		<supports>Otherworldly Patron</supports>
+		<description>
+			<html>&lt;p&gt;In your hour of need, your enemy offered you a lifeline. Now that all of your lifelines are used, you begin to feel his power creeping over you. He offers you powers beyond what you should receive, but you delve deeper into darkness every time you accept. &lt;/p&gt;
+&lt;div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_STRAHD_EXPANDED_SPELL_LIST" /&gt;
+&lt;div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_STRAHD_BLINK" /&gt;
+&lt;div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_STRAHD_FUTUREPROOF" /&gt;
+&lt;div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESOWNLUCK" /&gt;
+&lt;div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_FIENDISH_RESILIENCE" /&gt;
+&lt;div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_HURL_THROUGH_HELL" /&gt;</html>
+		</description>
+		<sheet display="false">
+			<description>You have made a pact with a fiend from the lower planes of existence.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_STRAHD_EXPANDED_SPELL_LIST" level="1" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_STRAHD_BLINK" level="1" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_STRAHD_FUTUREPROOF" level="2" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_STRAHD_FIENDISH_RESILIENCE" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_STRAHD_HURL_THROUGH_HELL" level="14" />
+		</rules>
+	</element>
+	<element name="Expanded Spell List" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_STRAHD_EXPANDED_SPELL_LIST">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_STRAHD_EXPANDED_SPELL_LIST</requirements>
+		<description>
+			<html>&lt;p&gt;Strahd lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.&lt;/p&gt;
+&lt;h5 class="caption"&gt;STRAHD EXPANDED SPELLS&lt;/h5&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;&lt;td&gt;Spell Level&lt;/td&gt;&lt;td&gt;Spells&lt;/td&gt;&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tr&gt;&lt;td&gt;1st&lt;/td&gt;&lt;td&gt;&lt;em&gt;false life, inflict wounds&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2nd&lt;/td&gt;&lt;td&gt;&lt;em&gt;blur, ray of enfeeblement&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;3rd&lt;/td&gt;&lt;td&gt;&lt;em&gt;clairvoyance, speak with dead&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;4th&lt;/td&gt;&lt;td&gt;&lt;em&gt;black tentacles, blight&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;5th&lt;/td&gt;&lt;td&gt;&lt;em&gt;contagion, insect plague&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<sheet display="false">
+			<description>The Fiend lets you choose from an expanded list of spells when you learn a warlock spell.</description>
+		</sheet>
+		<spellcasting name="Warlock" extend="true">
+			<extend>ID_PHB_SPELL_BURNING_HANDS</extend>
+			<extend>ID_PHB_SPELL_COMMAND</extend>
+			<extend>ID_PHB_SPELL_BLINDNESS_DEAFNESS</extend>
+			<extend>ID_PHB_SPELL_SCORCHING_RAY</extend>
+			<extend>ID_PHB_SPELL_FIREBALL</extend>
+			<extend>ID_PHB_SPELL_STINKING_CLOUD</extend>
+			<extend>ID_PHB_SPELL_FIRE_SHIELD</extend>
+			<extend>ID_PHB_SPELL_WALL_OF_FIRE</extend>
+			<extend>ID_PHB_SPELL_FLAME_STRIKE</extend>
+			<extend>ID_PHB_SPELL_HALLOW</extend>
+		</spellcasting>
+	</element>
+	<element name="Blink" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_STRAHD_BLINK">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_STRAHD_BLINK</requirements>
+		<description>
+			<html>&lt;p&gt;A dark power overcomes you, a reminder of the day you gave into your urges and sacrificed your final lifeline to hunt evil incarnate. An anger remains, an anger strahd allows you to draw on to "Blink". &lt;/p&gt; 
+
+&lt;p&gt;Once per long rest, you may "Blink" as a bonus action. Blinking allows you to move up to 200ft toward a point you can see. This does not function as a teleport. You must be able to physically move to that point via running, jumping or climbing. When the combat encounter ends, you gain 1 level of exhaustion. &lt;/p&gt;
+
+&lt;p&gt;When you use this action, the mists of Barovia surround you and the point you are blinking to for a moment. You physically move through the space, but other creatures perceive you as dissapearing into one cloud of mist and appearing out of the other.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Bonus Action" usage="1/Long Rest">
+			<description>You may move up to 200ft as a bonus action, you gain a level of exhaustion</description>
+		</sheet>
+	</element>
+	<element name="Futureproof" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_STRAHD_FUTUREPROOF">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_STRAHD_FUTUREPROOF</requirements>
+		<description>
+			<html>&lt;p&gt;You gain the ability to steal your own good fortune. When terrible odds show themselves, and you fall to bad luck, you can reach into the future and save your current skin. &lt;/p&gt;
+
+&lt;p&gt;When you fail any roll that has a set difficulty (DC, AC, or any save), you can choose to roll the lowest possible successful number instead and succeed. &lt;/p&gt;
+
+&lt;p&gt;However, this bad luck will return in the future, replacing your otherwise potential good fortune. Your next roll will with a set difficulty will be an automatic failure. Cosmetically, when you use this power, your tattoos flash bright gold, and shimmer till your next turn. You further feel an energy drain you mentally when you use this power, though you cannot quite explain what it is.&lt;/p&gt;
+
+&lt;p class="indent"&gt;You may use "Futureproof" as a bonus action twice per long rest. &lt;/p&gt;</html>
+		</description>
+		<sheet action="Bonus Action" usage="2/Long Rest">
+			<description>You gain the ability to steal your own good fortune. When terrible odds show themselves, and you fall to bad luck, you can reach into the future and save your current skin. </description>
+		</sheet>
+	</element>
+	<element name="Fiendish Resilience" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_FIENDISH_RESILIENCE">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_FIEND_FIENDISH_RESILIENCE</requirements>
+		<description>
+			<html>&lt;p&gt;Starting at 10th level, you can choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature. Damage from magical weapons or silver weapons ignores this resistance.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You can choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature. Damage from magical weapons or silver weapons ignores this resistance.</description>
+		</sheet>
+	</element>
+	<element name="Hurl Through Hell" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_HURL_THROUGH_HELL">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_FIEND_HURL_THROUGH_HELL</requirements>
+		<description>
+			<html>&lt;p&gt;Starting at 14th level, when you hit a creature with an attack, you can use this feature to instantly transport the target through the lower planes. The creature disappears and hurtles through a nightmare landscape.&lt;/p&gt;
+&lt;p class="indent"&gt;At the end of your next turn, the target returns to the space it previously occupied, or the nearest unoccupied space. If the target is not a fiend, it takes 10d10 psychic damage as it reels from its horrific experience.&lt;/p&gt;
+&lt;p class="indent"&gt;Once you use this feature, you can’t use it again until you finish a long rest.&lt;/p&gt;</html>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>When you hit a creature with an attack, you can use this feature to instantly transport the target through the lower planes. The creature disappears.
+			At the end of your next turn, the target returns to the space it previously occupied, or the nearest unoccupied space. If the target is not a fiend, it takes 10d10 psychic damage.</description>
+		</sheet>
+	</element>
+	<element name="Expanded Spell List Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_FIEND_EXPANDED_SPELL_LIST">
+		<sheet display="false" />
+	</element>
+	<element name="Dark One’s Blessing Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_FIEND_DARK_ONES_BLESSING">
+		<sheet display="false" />
+	</element>
+	<element name="Dark One’s Own Luck Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_FIEND_DARK_ONES_OWN_LUCK">
+		<sheet display="false" />
+	</element>
+	<element name="Fiendish Resilience Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_FIEND_FIENDISH_RESILIENCE">
+		<sheet display="false" />
+	</element>
+	<element name="Hurl Through Hell Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_FIEND_HURL_THROUGH_HELL">
+		<sheet display="false" />
+	</element>
+</elements>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Khenra</name>
+		<update version="0.0.2">
+			<file name="race-khenra.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/unearthed-arcana/planeshift/amonkhet/race-khenra.xml" />
+		</update>
+	</info>
+	<element name="Khenra~" type="Race" source="Plane Shift: Amonkhet" id="ID_WOTC_PSA_RACE_KHENRA">
+		<description>
+			<html>&lt;p&gt;The khenra of Amonkhet are tall and lean, with graceful bodies and heads that strongly resemble jackals. Their snouts are long and sharp, and their angular ears rise straight above their heads. Their bodies are covered in dark, sleek hair that ranges from the brown of the desert sands to ebony black. Despite their sharp teeth, they consider biting to be an uncouth and unworthy combat tactic.&lt;/p&gt;
+&lt;p class="indent"&gt;Nearly every khenra is born a fraternal or identical twin, and a pair of khenra twins forms an extremely close emotional bond unknown to most other residents of Amonkhet. The death of one twin in training or the trials causes a tremendous shock to the survivor, who typically grows more aggressive and foolhardy in battle. The rare khenra who are born without twins are believed to have killed their siblings in the womb, and are thus viewed as natural-born initiates, sure to achieve a glorified death in the Trial of Zeal.&lt;/p&gt;
+&lt;h4&gt;STRENGTH AND ZEAL&lt;/h4&gt;
+&lt;p&gt;Many khenra believe that they are created in the image of Hazoret, and though they venerate all five gods in the manner of all citizens of Naktamun, they have a special affinity for the teachings and philosophy of the god of zeal. These khenra share a deep love of combat, especially hand-to-hand fighting, and they devote themselves to their training with particular intensity.&lt;/p&gt;
+&lt;p class="indent"&gt;The familial bond experienced in the Family Temple of Hazoret’s monument is a part of every khenra’s experience as one of a pair of twins. As such, these khenra sometimes think of themselves as Hazoret’s children even before they finish the fourth trial. For her part, Hazoret seems to favor khenra among her viziers, and some say that she shows particular favor to khenra initiates who survive to reach the Trial of Zeal.&lt;/p&gt;
+&lt;p class="indent"&gt;Other khenra choose to distance themselves from Hazoret and the reckless battle frenzy she encourages. They devote themselves instead to honing their physical strength, resilience, and adaptability, inspired and guided by the teachings of Rhonas. These khenra have a great fondness for wrestling (or tussling, as they often call it), and they keep careful track of the matches they win and lose against other initiates. They often seek out matches against minotaurs, enjoying the challenge of pitting their sinewy strength against the brute muscle of larger and heavier opponents.&lt;/p&gt;
+&lt;h4&gt;KHENRA TRAITS&lt;/h4&gt;
+&lt;p&gt;Your khenra character has the following traits.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;b&gt;&lt;i&gt;Ability Score Increase. &lt;/i&gt;&lt;/b&gt;Your Dexterity score increases by 2, and your Strength score increases by 1.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;b&gt;&lt;i&gt;Age. &lt;/i&gt;&lt;/b&gt;Khenra mature quickly, reaching adulthood in their early teens. Khenra initiates are usually the youngest in a crop, completing the trials by their late teens. Even without a violent death, they rarely live past 60. &lt;/p&gt;
+&lt;p class="indent"&gt;&lt;b&gt;&lt;i&gt;Alignment. &lt;/i&gt;&lt;/b&gt;Most khenra lean toward chaotic alignments. They have no particular inclination toward good or evil.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;b&gt;&lt;i&gt;Size. &lt;/i&gt;&lt;/b&gt;Khenra have similar builds to humans. Your size is Medium.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;b&gt;&lt;i&gt;Speed. &lt;/i&gt;&lt;/b&gt;Your base walking speed is 35 feet.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;b&gt;&lt;i&gt;Khenra Weapon Training. &lt;/i&gt;&lt;/b&gt;You have proficiency with the khopesh, spear, and javelin.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;b&gt;&lt;i&gt;Khenra Twins. &lt;/i&gt;&lt;/b&gt;If your twin is alive and you can see your twin, whenever you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll. If your twin is dead (or if you were born without a twin), you can’t be frightened.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;b&gt;&lt;i&gt;Languages. &lt;/i&gt;&lt;/b&gt;You can speak, read, and write Common and Khenra.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="2" />
+			<stat name="strength" value="1" />
+			<stat name="innate speed" value="35" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_WOTC_PSA_LANGUAGE_KHENRA" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_JAVELIN" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
+			<grant type="Racial Trait" id="ID_WOTC_PSA_KHENRA_RACIAL_TRAIT_KHENRA_TWIN" />
+			<grant type="Racial Trait" id="ID_WOTC_PSA_KHENRA_RACIAL_TRAIT_CANINE_SENSES" />
+			<grant type="Racial Trait" id="ID_WOTC_PSA_KHENRA_RACIAL_TRAIT_TACKLE_TAKEDOWN" />
+		</rules>
+	</element>
+	<element name="Khenra Twins" type="Racial Trait" source="Plane Shift: Amonkhet" id="ID_WOTC_PSA_KHENRA_RACIAL_TRAIT_KHENRA_TWIN">
+		<description>
+			<html>&lt;p&gt;If your twin is alive and you can see your twin, whenever you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll. If your twin is dead (or if you were born without a twin), you can’t be frightened.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>If your twin is alive and you can see your twin, whenever you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll. If your twin is dead (or if you were born without a twin), you can’t be frightened.</description>
+		</sheet>
+	</element>
+	<element name="Khenra" type="Language" source="Plane Shift: Amonkhet" id="ID_WOTC_PSA_LANGUAGE_KHENRA">
+		<description>
+			<html>&lt;p&gt;The language of the Khenra.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Khenra</set>
+			<set name="script">Khenra</set>
+		</setters>
+		<sheet display="false" />
+	</element>
+	<element name="Canine Senses" type="Racial Trait" source="Plane Shift: Amonkhet" id="ID_WOTC_PSA_KHENRA_RACIAL_TRAIT_CANINE_SENSES">
+		<description>
+			<html>&lt;p&gt;You have proficiency in the Perception skill and advantage on Wisdom (Perception) checks that rely on smell.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You have proficiency in the Perception skill and advantage on Wisdom (Perception) checks that rely on smell.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+		</rules>
+	</element>
+	<element name="Tackle Takedown" type="Racial Trait" source="Plane Shift: Amonkhet" id="ID_WOTC_PSA_KHENRA_RACIAL_TRAIT_TACKLE_TAKEDOWN">
+		<description>
+			<html>&lt;p&gt;Immediately after you use the Dash action on your turn and move at least 20 feet, you can attempt to shove a creature prone as part of that action.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Immediately after you use the Dash action on your turn and move at least 20 feet, you can attempt to shove a creature prone as part of that action.</description>
+		</sheet>
+	</element>
+</elements>
