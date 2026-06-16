@@ -45,7 +45,6 @@
 		</sheet>
 		<rules>
 			<stat name="initiative" value="proficiency" />
-			<grant type="Grants" id="ID_INTERNAL_GRANT_JACK_OF_ALL_TRADES_DISABLE" />
 		</rules>
 	</element>
 
