@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Moonshadow Warrior</name>
@@ -9,31 +9,43 @@
 	<element name="Moonshadow Warrior" type="Archetype" source="DANDWiki" id="ID_DANDWIKI_ARCHETYPE_FIGHTER_MOONSHADOW_WARRIOR">
 		<supports>Martial Archetype</supports>
 		<description>
-			<html>&lt;html&gt;
-&lt;p&gt;In the quiet of the night, under the watchful gaze of the ever-changing moon, the Moonshadow Warriors tread the line between light and darkness. &lt;/p&gt;
-&lt;p&gt;These elite fighters draw upon the mystical powers of the moon, embracing its dual nature to harness both the brilliant radiance and the enveloping shadows in battle. Cloaked in the cool embrace of the night, they move with a grace that belies their deadly purpose, a silent oath whispered to the moon to uphold balance and justice. &lt;/p&gt;
-&lt;p&gt;Whether illuminating the hidden truth with the moon's cleansing light or vanishing into the protective embrace of its shadows, Moonshadow Warriors are	masters of the nocturnal realm, their blades singing the ancient hymns of the moon's eternal cycle. Theirs is a path walked in the serene silence of the night, guided by the moon's subtle glow and profound mystery.&lt;/p&gt;
-&lt;div element="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_LUNAR_AFFINITY" /&gt;
-&lt;div element="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_MOONLIT_RESISITANCE" /&gt;
-&lt;div element="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_SHADOWSTEP" /&gt; 
-&lt;/html&gt;</html>
+			<p>In the quiet of the night, under the watchful gaze of the ever-changing moon, the Moonshadow Warriors tread the line between light and darkness. </p>
+			<p class="indent">These elite fighters draw upon the mystical powers of the moon, embracing its dual nature to harness both the brilliant radiance and the enveloping shadows in battle. Cloaked in the cool embrace of the night, they move with a grace that belies their deadly purpose, a silent oath whispered to the moon to uphold balance and justice. </p>
+			<p class="indent">Whether illuminating the hidden truth with the moon's cleansing light or vanishing into the protective embrace of its shadows, Moonshadow Warriors are masters of the nocturnal realm, their blades singing the ancient hymns of the moon's eternal cycle. Theirs is a path walked in the serene silence of the night, guided by the moon's subtle glow and profound mystery.</p>
+			<div element="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_LUNAR_AFFINITY" />
+			<div element="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_MOONLIT_RESISITANCE" />
+			<div element="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_SHADOWSTEP" /> 
+			<div element="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_LUNAR_DIVERGENCE" /> 
+			<div element="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_LUNAR_DIVERGENCE_MOONLIT_MANTLE" /> 
+			<div element="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_LUNAR_DIVERGENCE_SHADOW_LANCE" /> 
+			<div element="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_LUNAR_EMPOWERMENT" /> 
+			<div element="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_DEAD_BY_DAYLIGHT" />
+			<div element="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_DEAD_BY_DAYLIGHT_SILVER_SHEEN" /> 
+			<div element="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_DEAD_BY_DAYLIGHT_NIGHTS_EDGE" /> 
 		</description>
-		<sheet display="false" />
+		<sheet display="false" >
+			<description>A moon powered warror that is imbued with the power of light.</description>
+		</sheet>
 		<rules>
 			<grant type="Archetype Feature" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_LUNAR_AFFINITY" level="3" />
 			<grant type="Archetype Feature" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_MOONLIT_RESISITANCE" level="3" />
 			<grant type="Archetype Feature" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_SHADOWSTEP" level="7" />
+			<grant type="Archetype Feature" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_LUNAR_DIVERGENCE" level="10" />
+			<grant type="Archetype Feature" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_LUNAR_EMPOWERMENT" level="15" />
+			<grant type="Archetype Feature" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_DEAD_BY_DAYLIGHT" level="18" />
+			<grant type="Archetype Feature" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_DEAD_BY_DAYLIGHT_SILVER_SHEEN" requirements="!ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_LUNAR_DIVERGENCE_SHADOW_LANCE" level="18" />
+			<grant type="Archetype Feature" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_DEAD_BY_DAYLIGHT_NIGHTS_EDGE" requirements="!ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_LUNAR_DIVERGENCE_MOONLIT_MANTLE" level="18" />
 		</rules>
-	</element>
+	</element> 
 	<element name="Lunar Affinity" type="Archetype Feature" source="DANDWiki" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_LUNAR_AFFINITY">
 		<description>
-			<html>&lt;html&gt;&lt;p&gt;Starting at 3rd level, your connection to the moon begins to manifest in tangible ways, granting you abilities that grow with the moon's cycles. You gain a special resource called &lt;b&gt;Lunar Points&lt;/b&gt;, which reflect the moon's current phase. &lt;/p&gt;
-&lt;p&gt;The number of &lt;b&gt;Lunar Points&lt;/b&gt; available to you is equal to half your fighter level, rounded down, with a minimum of 1 point. These points refresh after a long rest.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;New Moon:&lt;/b&gt; When the moon is new, you can spend 1 Lunar Point to blend into the shadows, gaining advantage on Stealth checks for 1 minute.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Waxing Moon:&lt;/b&gt;During the waxing phases, you can spend 1 Lunar Point to enhance your agility, gaining a bonus to AC equal to your proficiency bonus until the start of your next turn.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Full Moon:&lt;/b&gt; Under the full moon, you can spend 1 Lunar Point to illuminate your surroundings, casting the light spell without needing material components. Additionally, attacks you make deal extra radiant damage equal to your proficiency bonus.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Waning Moon:&lt;/b&gt; During the waning phases, you can spend 1 Lunar Point to dim the light around you, imposing disadvantage on attack rolls against you until the end of your next turn.&lt;/p&gt;&lt;/html&gt;</html>
+			<html><html><p>Starting at 3rd level, your connection to the moon begins to manifest in tangible ways, granting you abilities that grow with the moon's cycles. You gain a special resource called <b>Lunar Points</b>, which reflect the moon's current phase. </p>
+			<p>The number of <b>Lunar Points</b> available to you is equal to half your fighter level, rounded down, with a minimum of 1 point. These points refresh after a long rest.</p>
+			<p></p>
+			<p><b>New Moon:</b> When the moon is new, you can spend 1 Lunar Point to blend into the shadows, gaining advantage on Stealth checks for 1 minute.</p>
+			<p><b>Waxing Moon:</b>During the waxing phases, you can spend 1 Lunar Point to enhance your agility, gaining a bonus to AC equal to your proficiency bonus until the start of your next turn.</p>
+			<p><b>Full Moon:</b> Under the full moon, you can spend 1 Lunar Point to illuminate your surroundings, casting the light spell without needing material components. Additionally, attacks you make deal extra radiant damage equal to your proficiency bonus.</p>
+			<p><b>Waning Moon:</b> During the waning phases, you can spend 1 Lunar Point to dim the light around you, imposing disadvantage on attack rolls against you until the end of your next turn.</p></html></html>
 		</description>
 		<sheet>
 			<description>You have {{lunar-points}} Lunar Points that you can use on abilties that shift based on the current moon phase.
@@ -68,10 +80,10 @@
 	</element>
 	<element name="Moonlit Resistance" type="Archetype Feature" source="DANDWiki" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_MOONLIT_RESISITANCE">
 		<description>
-			<html>&lt;html&gt;&lt;p&gt;At 3rd level, the mysterious energy of the moon bolsters your resilience. Whenever you fight under the open sky at night, you tap into this power to protect yourself from harm. You gain the following benefits:&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;b&gt;Regeneration:&lt;/b&gt; At the start of your turn, if you have at	least 1 hit point and are under the night sky, you regain hit points equal to your Constitution modifier (minimum of 1).&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;b&gt;Night Vision:&lt;/b&gt; Your vision in the darkness, both natural and magical, extends an additional 30 feet. If you already have darkvision, the range of your darkvision increases by 30 feet.&lt;/p&gt;
-&lt;p class="indent"&gt;&lt;b&gt;Celestial Awareness:&lt;/b&gt; You have advantage on Wisdom (Perception) checks to detect hidden creatures and objects, as well as on saving throws against illusions, as long as you are under the night sky.&lt;/p&gt;&lt;/html&gt;</html>
+			<html><html><p>At 3rd level, the mysterious energy of the moon bolsters your resilience. Whenever you fight under the open sky at night, you tap into this power to protect yourself from harm. You gain the following benefits:</p>
+			<p class="indent"><b>Regeneration:</b> At the start of your turn, if you have at	least 1 hit point and are under the night sky, you regain hit points equal to your Constitution modifier (minimum of 1).</p>
+			<p class="indent"><b>Night Vision:</b> Your vision in the darkness, both natural and magical, extends an additional 30 feet. If you already have darkvision, the range of your darkvision increases by 30 feet.</p>
+			<p class="indent"><b>Celestial Awareness:</b> You have advantage on Wisdom (Perception) checks to detect hidden creatures and objects, as well as on saving throws against illusions, as long as you are under the night sky.</p></html></html>
 		</description>
 		<sheet>
 			<description>While under the night sky, you gain regain {{moonlit-regeneration}} health per turn, you gain an additional 30ft of Darkvision, and advantage on Wisdom (Perception) checks to detecht hidden creatures and objects, as well as saving throws against illusions. </description>
@@ -83,27 +95,82 @@
 	</element>
 	<element name="Shadowstep" type="Archetype Feature" source="DANDWiki" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_SHADOWSTEP">
 		<description>
-			<html>&lt;html&gt;&lt;p&gt;Starting at 7th level, you've learned to bend the shadows to your will, allowing you to move across the battlefield like a whisper in the night. As a bonus 	action on your turn, you can teleport up to 30 feet to an unoccupied space you can see that is also in dim light or darkness. This supernatural movement doesn't provoke opportunity attacks.&lt;/p&gt;&lt;/html&gt;</html>
+			<html><html><p>Starting at 7th level, you've learned to bend the shadows to your will, allowing you to move across the battlefield like a whisper in the night. As a bonus 	action on your turn, you can teleport up to 30 feet to an unoccupied space you can see that is also in dim light or darkness. This supernatural movement doesn't provoke opportunity attacks.</p></html></html>
 		</description>
 		<sheet action="Bonus Action">
 			<description>You can teleport up to 30 feet to an unoccupied space you can see that is also in dim light or darkness. This supernatural movement doesn't provoke opportunity attacks.</description>
 		</sheet>
 	</element>
-	<element name="Lunar Divergence" type="Archetype Feature" source="DANDWiki" id="ID_DANDWIKI_ARCHETYPE_FIGHTER_MOONSHADOW_WARRIOR_LUNAR_DIVERGENCE">
+	<!-- Level 10 Archetype Feature -->
+	<element name="Lunar Divergence" type="Archetype Feature" source="DANDWiki" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_LUNAR_DIVERGENCE">
 		<description>
-			<html>&lt;p&gt;At 10th level, Moonshadow Warriors must choose between two paths that further define their connection to the moon and shadows : Lunar Guardian or Eclipse Striker. This choice influences their fighting style, offering unique abilities.&lt;/p&gt;</html>
-		</description>
-		<sheet>
-			<description>Moonshadow Warriors must choose between two paths that further define their connection to the moon and shadows . This choice influences their fighting style, offering unique abilities.</description>
-		</sheet>
-		<rules>
-			<select type="Archetype Feature" name="Lunar Divergence" supports="Lunar Divergence,Moonshadow Warrior" level="10" />
-		</rules>
-	</element>
-	<element name="Moonlit Mantle" type="Archetype Feature" source="DANDWiki" id="ID_DANDWIKI_ARCHETYPE_FIGHTER_LUNAR_DIVERGENCE_MOONLIT_MANTLE">
-		<description>
-			<html>&lt;p&gt;You learn to use the moon's protective energies to safeguard yourself and your allies. As a reaction when you or an ally within 30 feet of you is hit by an attack, you can spend 2 Lunar Points to grant a bonus to the target's AC equal to your Wisdom modifier (minimum of +1) against that attack, potentially causing it to miss. This represents your ability to momentarily wrap the target in a protective layer of moonlight.&lt;/p&gt;</html>
+			<p>At 10th level, Moonshadow Warriors must choose between two paths that further define their connection to the moon and shadows : Lunar Guardian or Eclipse Striker. This choice influences their fighting style, offering unique abilities.</p>
 		</description>
 		<sheet display="false" />
+		<rules>
+			<!-- CRITICAL ID: Tells Aurora exactly where to save your choice state permanently -->
+			<select type="Archetype Feature" name="Lunar Divergence Choice" supports="Moonshadow Warrior Lunar Divergence" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_LUNAR_DIVERGENCE_SELECT" />
+		</rules>
+	</element>
+	<!-- Choice Option 1: Moonlit Mantle -->
+	<element name="Moonlit Mantle" type="Archetype Feature" source="DANDWiki" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_LUNAR_DIVERGENCE_MOONLIT_MANTLE">
+		<supports>Moonshadow Warrior Lunar Divergence</supports>
+		<description>
+			<p>You learn to use the moon's protective energies to safeguard yourself and your allies.</p>
+		</description>
+		<sheet>
+			<description>As a reaction when you or an ally within 30 feet of you is hit by an attack, you can spend 2 Lunar Points to grant a bonus to the target's AC equal to your Wisdom modifier (minimum of +1) against that attack, potentially causing it to miss. This represents your ability to momentarily wrap the target in a protective layer of moonlight.</description>
+		</sheet>
+	</element>
+	<!-- Choice Option 2: Shadow Lance -->
+	<element name="Shadow Lance" type="Archetype Feature" source="DANDWiki" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_LUNAR_DIVERGENCE_SHADOW_LANCE">
+		<supports>Moonshadow Warrior Lunar Divergence</supports>
+		<description>
+			<p>You can channel the moon's power to unleash devastating strikes of condensed moonlight.</p>
+		</description>
+		<sheet>
+			<description>As an action, you can spend 3 Lunar Points to make a ranged spell attack against a creature you can see within 60 feet. On a hit, the target takes 1d10 radiant damage plus an additional 1d10 per two fighter levels you have. This attack represents a spear-like projection of moonlight, embodying the moon's piercing and relentless nature.</description>
+		</sheet>
+	</element>
+	<element name="Lunar Empowerment" type="Archetype Feature" source="DANDWiki" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_LUNAR_EMPOWERMENT">
+		<description>
+			<html><p>At 15th level, your bond with the moon bestows you enhanced abilities that reflect its phase, further enhancing your combat prowess and connection to the lunar cycle. On a full moon, your Lunar Points maximum increases by 5. Additionally, choose one benefit related to the current moon phase, which you can change after a long rest:</p>
+			<p><b>New Moon:</b>Your movements become nearly invisible in dim light or darkness, granting you advantage on Stealth checks. This mirrors the hidden, unseen aspect of the new moon.</p>
+			<p><b>Waxing Moon:</b>You gain a bonus to all attack rolls equal to your Wisdom modifier (minimum of +1), reflecting the moon's growing influence and your increasing assertiveness in battle.</p>
+			<p><b>Full Moon:</b>Once per turn, you can add an extra 1d8 radiant damage to a successful attack, symbolizing the full moon's peak energy and brightness.</p>
+			<p><b>Waning Moon:</b>You gain resistance to all damage when you are below half your hit points, as the waning moon lends you its resilience, helping you endure as it diminishes.</p></html>
+		</description>
+		<sheet>
+			<html><p>At 15th level, your bond with the moon bestows you enhanced abilities that reflect its phase, further enhancing your combat prowess and connection to the lunar cycle. On a full moon, your Lunar Points maximum increases by 5. Additionally, choose one benefit related to the current moon phase, which you can change after a long rest:</p>
+			<p><b>New Moon:</b>Your movements become nearly invisible in dim light or darkness, granting you advantage on Stealth checks. This mirrors the hidden, unseen aspect of the new moon.</p>
+			<p><b>Waxing Moon:</b>You gain a bonus to all attack rolls equal to your Wisdom modifier (minimum of +1), reflecting the moon's growing influence and your increasing assertiveness in battle.</p>
+			<p><b>Full Moon:</b>Once per turn, you can add an extra 1d8 radiant damage to a successful attack, symbolizing the full moon's peak energy and brightness.</p>
+			<p><b>Waning Moon:</b>You gain resistance to all damage when you are below half your hit points, as the waning moon lends you its resilience, helping you endure as it diminishes.</p></html>
+		</sheet>
+
+	</element>
+	<element name="Dead by Daylight" type="Archetype Feature" source="DANDWiki" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_DEAD_BY_DAYLIGHT">
+		<description>
+			<html><p>At 18th level, your connection to the moon's enigmatic power reaches its zenith, manifesting in potent abilities that vary depending on whether you've chosen the path of the Lunar Guardian or the Eclipse Striker.</p></html>
+		</description>
+		<sheet>
+			<html><p>At 18th level, your connection to the moon's enigmatic power reaches its zenith, manifesting in potent abilities that vary depending on whether you've chosen the path of the Lunar Guardian or the Eclipse Striker.</p></html>
+		</sheet>
+	</element>
+	<element name="Silvery Sheen" type="Archetype Feature" source="DANDWiki" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_DEAD_BY_DAYLIGHT_SILVER_SHEEN">
+		<description>
+			<html><p>You can call down the protective grace of the moon to shield your allies and turn the tide of battle. As an action, expend 5 Lunar Points to create a protective dome of silvery light with a 30-foot radius centered on you. For 1 minute, this dome grants you and your allies resistance to all damage types, and enemies within the dome have disadvantage on attack rolls. The dome moves with you, ensuring your allies are safeguarded as you battle. This represents the culmination of your role as a protector, a bastion of safety under the moon's watchful gaze.</p></html>
+		</description>
+		<sheet>
+			<description>You can call down the protective grace of the moon to shield your allies and turn the tide of battle. As an action, expend 5 Lunar Points to create a protective dome of silvery light with a 30-foot radius centered on you. For 1 minute, this dome grants you and your allies resistance to all damage types, and enemies within the dome have disadvantage on attack rolls. The dome moves with you, ensuring your allies are safeguarded as you battle. This represents the culmination of your role as a protector, a bastion of safety under the moon's watchful gaze.</description>
+		</sheet>
+	</element>
+	<element name="Night's Edge" type="Archetype Feature" source="DANDWiki" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_DEAD_BY_DAYLIGHT_NIGHTS_EDGE">
+		<description>
+			<html><p>Harness the moon's offensive might to devastate your foes. As a bonus action, expend 5 Lunar Points to imbue your weapon with the moon's eclipse energy for 1 minute. Attacks with this weapon ignore resistances and immunities, and the first time you hit a creature on each of your turns, the target takes an extra 3d10 radiant damage. This ability symbolizes the apex of your offensive capabilities, where you become an avatar of the moon's destructive side, striking down enemies with the force of an eclipse.</p></html>
+		</description>
+		<sheet>
+			<description>Harness the moon's offensive might to devastate your foes. As a bonus action, expend 5 Lunar Points to imbue your weapon with the moon's eclipse energy for 1 minute. Attacks with this weapon ignore resistances and immunities, and the first time you hit a creature on each of your turns, the target takes an extra 3d10 radiant damage. This ability symbolizes the apex of your offensive capabilities, where you become an avatar of the moon's destructive side, striking down enemies with the force of an eclipse.</description>
+		</sheet>
 	</element>
 </elements>

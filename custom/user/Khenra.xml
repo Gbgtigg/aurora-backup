@@ -6,7 +6,7 @@
 			<file name="race-khenra.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/unearthed-arcana/planeshift/amonkhet/race-khenra.xml" />
 		</update>
 	</info>
-	<element name="Khenra~" type="Race" source="Plane Shift: Amonkhet" id="ID_WOTC_PSA_RACE_KHENRA">
+	<element name="Khenra" type="Race" source="Plane Shift: Amonkhet" id="ID_WOTC_PSA_RACE_KHENRA">
 		<description>
 			<html>&lt;p&gt;The khenra of Amonkhet are tall and lean, with graceful bodies and heads that strongly resemble jackals. Their snouts are long and sharp, and their angular ears rise straight above their heads. Their bodies are covered in dark, sleek hair that ranges from the brown of the desert sands to ebony black. Despite their sharp teeth, they consider biting to be an uncouth and unworthy combat tactic.&lt;/p&gt;
 &lt;p class="indent"&gt;Nearly every khenra is born a fraternal or identical twin, and a pair of khenra twins forms an extremely close emotional bond unknown to most other residents of Amonkhet. The death of one twin in training or the trials causes a tremendous shock to the survivor, who typically grows more aggressive and foolhardy in battle. The rare khenra who are born without twins are believed to have killed their siblings in the womb, and are thus viewed as natural-born initiates, sure to achieve a glorified death in the Trial of Zeal.&lt;/p&gt;

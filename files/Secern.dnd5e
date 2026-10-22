@@ -9,12 +9,12 @@
 	<!-- display data -->
 	<display-properties favorite="false">
 		<name>Secern</name>
-		<race>Khenra~</race>
-		<class>Fighter (8) / Psion (1)</class>
+		<race>Khenra</race>
+		<class>Fighter</class>
 		<archetype>
 		</archetype>
 		<background>Escaped Slave</background>
-		<level>9</level>
+		<level>11</level>
 		<portrait>
 			<companion>
 			</companion>
@@ -28,11 +28,11 @@
 			<name>Secern</name>
 			<gender>Female/Non-Binary</gender>
 			<player-name>Josh</player-name>
-			<experience>63950</experience>
+			<experience>85000</experience>
 			<attacks>
 				<description><![CDATA[]]></description>
-				<attack identifier="8254e24f-4a70-4e38-9c64-1b33e686ce3e" name="Dagger" range="20/60" attack="+9 vs AC" damage="1d4+5 piercing" displayed="true" ability="Strength">
-					<description><![CDATA[Finesse, Light, Thrown]]></description>
+				<attack identifier="c9003c2a-017c-4a11-aa49-60fac9cf8291" name="Saint Markovia’s Thighbone" range="5 ft" attack="+9 vs AC" damage="1d6+5 bludgeoning" displayed="true" ability="Strength">
+					<description><![CDATA[]]></description>
 				</attack>
 				<attack identifier="9d422291-7232-433d-9bcd-566482a63d36" name="Glaive" range="5 ft" attack="+9 vs AC" damage="1d10+5 slashing" displayed="true" ability="Strength">
 					<description><![CDATA[Heavy, Reach, Two-Handed]]></description>
@@ -40,18 +40,21 @@
 				<attack identifier="1852da78-96b6-4edb-b060-4d632d555855" name="Khopesh" range="5 ft" attack="+9 vs AC" damage="1d6+5 slashing" displayed="true" ability="Strength">
 					<description><![CDATA[Finesse, Light]]></description>
 				</attack>
+				<attack identifier="c26aba64-84d6-4f0f-9ebe-64e377096ebc" name="Longbow" range="150/600" attack="+8 vs AC" damage="1d8+4 piercing" displayed="true" ability="Dexterity">
+					<description><![CDATA[Ammunition, Heavy, Two-Handed]]></description>
+				</attack>
+				<attack identifier="8254e24f-4a70-4e38-9c64-1b33e686ce3e" name="Dagger" range="20/60" attack="+9 vs AC" damage="1d4+5 piercing" displayed="true" ability="Strength">
+					<description><![CDATA[Finesse, Light, Thrown]]></description>
+				</attack>
 			</attacks>
 			<backstory><![CDATA[You are a survivor of the slave blocks of Darkspine on Avernus, or Dis, the Iron City, having managed to escape your servitude as a slave. You know how to pick a lock, hide and scrounge, surviving on the barest minimum to get by in the blasted landscape of Hell and the back alleys of its hateful cities. You know how to spot a slaver, and have a finely tuned will to live.]]></backstory>
 			<background-trinket>
 			</background-trinket>
-			<background-traits>
-			</background-traits>
-			<background-ideals>
-			</background-ideals>
-			<background-bonds>
-			</background-bonds>
-			<background-flaws>
-			</background-flaws>
+			<background-traits>I prefer to listen and observe – its’ remarkable what you can learn that way.
+I always note potential escape routes in any situation.</background-traits>
+			<background-ideals>Knowledge. Ignorance is the strongest chain of all.</background-ideals>
+			<background-bonds>I still cling to my old traditions, from a time before I was a slave.</background-bonds>
+			<background-flaws>I go out of my way to flout authority.</background-flaws>
 			<background>
 				<feature name="Trauma Survivor">
 					<description><![CDATA[You survived. Whatever it was, you made it through, and you can help others do the same. People view you as an expert on the traumatic situation you faced—be it a specific sort of violence, illness, or otherwise. You are aware of nonmagical recovery techniques, common resources, and misinformation. You know how to speak to sympathetic doctors, clergy, and local leaders and can convince them to shelter one person (other than yourself) at a modest lifestyle for up to one month.]]></description>
@@ -66,10 +69,10 @@
 			</organization>
 			<additional-features><![CDATA[]]></additional-features>
 			<currency>
-				<copper>7</copper>
-				<silver>8</silver>
+				<copper>9</copper>
+				<silver>15</silver>
 				<electrum>0</electrum>
-				<gold>270</gold>
+				<gold>7161</gold>
 				<platinum>0</platinum>
 				<equipment><![CDATA[]]></equipment>
 				<treasure><![CDATA[]]></treasure>
@@ -100,13 +103,13 @@
 			<wisdom>14</wisdom>
 			<charisma>13</charisma>
 		</abilities>
-		<elements level-count="9" registered-count="36">
+		<elements level-count="11" registered-count="41">
 			<element type="Option" name="Feats" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" name="Multiclassing" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING">
 				<element type="Grants" name="Multiclass Spellcasting" id="ID_INTERNAL_GRANTS_MULTICLASS_SPELLCASTING" />
 			</element>
 			<element type="Option" name="Firearms" id="ID_WOTC_DMG_OPTION_FIREARMS" />
-			<element type="Level" name="1" id="ID_LEVEL_1" rndhp="10,9,5,5,10,5,4,8,6,8,3,6,9,8,4,2,7,3,4,1">
+			<element type="Level" name="1" id="ID_LEVEL_1" rndhp="10,9,5,6,10,5,4,8,6,10,10,6,9,8,4,2,7,3,4,1">
 				<element type="Race" name="Race" requiredLevel="1" checksum="1597ef76" registered="ID_WOTC_PSA_RACE_KHENRA">
 					<element type="Size" name="Medium" id="ID_SIZE_MEDIUM" />
 					<element type="Language" name="Common" id="ID_LANGUAGE_COMMON" />
@@ -225,6 +228,9 @@
 							<element type="Archetype Feature" name="Lunar Affinity" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_LUNAR_AFFINITY" />
 							<element type="Archetype Feature" name="Moonlit Resistance" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_MOONLIT_RESISITANCE" />
 							<element type="Archetype Feature" name="Shadowstep" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_SHADOWSTEP" />
+							<element type="Archetype Feature" name="Lunar Divergence" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_LUNAR_DIVERGENCE">
+								<element type="Archetype Feature" name="Lunar Divergence Choice" requiredLevel="1" checksum="bdad2883" registered="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_LUNAR_DIVERGENCE_SHADOW_LANCE" />
+							</element>
 						</element>
 					</element>
 					<element type="Class Feature" name="Ability Score Improvement" id="ID_WOTC_PHB_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_FIGHTER">
@@ -243,6 +249,7 @@
 						</element>
 					</element>
 					<element type="Class Feature" name="Extra Attack" id="ID_WOTC_PHB_CLASS_FEATURE_EXTRAATTACK" />
+					<element type="Class Feature" name="Indomitable" id="ID_WOTC_PHB_CLASS_FEATURE_INDOMITABLE" />
 				</element>
 				<element type="Background" name="Background" requiredLevel="1" checksum="6a621392" registered="ID_DMSG_HOH_BACKGROUND_ESCAPED_SLAVE">
 					<element type="Background Feature" name="Variant Feature" requiredLevel="1" checksum="65aafd5b" registered="ID_WOTC_VRGTR_BACKGROUND_FEATURE_TRAUMA_SURVIVOR">
@@ -253,7 +260,7 @@
 					<element type="Proficiency" name="Tool Proficiency (Thieves’ tools)" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" />
 					<element type="Language" name="Infernal" id="ID_LANGUAGE_INFERNAL" />
 				</element>
-				<element type="Alignment" name="Alignment" requiredLevel="1" checksum="c9ac49d5" registered="" />
+				<element type="Alignment" name="Alignment" requiredLevel="1" checksum="c9ac49d5" registered="ID_ALIGNMENT_LAWFUL_NEUTRAL" />
 				<element type="Deity" name="Deity" requiredLevel="1" checksum="989cce4c" registered="ID_WOTC_SOURCE_UNEARTHED_ARCANA_PLANE_SHIFT_AMONKHET_DEITY_HAZORET" />
 				<element type="Grants" name="Base" id="ID_INTERNAL_GRANTS_CHARACTER_BASE">
 					<element type="Grants" name="Ability Score Maximum Over 20" id="ID_INTERNAL_GRANTS_ABILITY_SCORE_MAXIMUM_OVER_20" />
@@ -270,25 +277,9 @@
 			<element type="Level" name="6" id="ID_LEVEL_6" />
 			<element type="Level" name="7" id="ID_LEVEL_7" />
 			<element type="Level" name="8" id="ID_LEVEL_8" />
-			<element type="Level" name="9" id="ID_LEVEL_9" multiclass="true" starting="true" rndhp="4,5,1,5,3,1,5,1,5,6,5,4,4,1,1,2,6,6,2,1" class="ID_KT_PSION_MULTICLASS_PSION">
-				<element type="Multiclass" name="Multiclass (Level 9)" requiredLevel="9" checksum="15c3f50f" registered="ID_KT_PSION_MULTICLASS_PSION">
-					<element type="Proficiency" name="Psioncis" id="ID_KT_PSION_PROFICIENCY_SKILL_PSIONICS" />
-					<element type="Class Feature" name="Psionic Archetype" id="ID_KT_PSION_CLASS_FEATURE_PSION_PSIONIC_ARCHETYPE">
-						<element type="Archetype" name="Psionic Archetype" requiredLevel="1" checksum="e12b1552" registered="ID_KT_PSION_ARCHETYPE_PSION_TRANSCENDED">
-							<element type="Archetype Feature" name="Enlightened" id="ID_KT_PSION_ARCHETYPE_FEATURE_TRANSCENDED_ENLIGHTENED">
-								<element type="Class Feature" name="Enhancement Discipline" id="ID_KT_PSION_CLASS_FEATURE_PSIONIC_DISCIPLINE_ENHANCEMENT_DISCIPLINE">
-									<element type="Grants" name="Psionic Discipline" id="ID_INTERNAL_GRANT_KT_PSIONIC_DISCIPLINE" />
-									<element type="Spell" name="Enhancing Surge" id="ID_KT_PSION_PSIONIC_POWER_ENHANCING_SURGE" />
-								</element>
-							</element>
-							<element type="Archetype Feature" name="State of Mind" id="ID_KT_PSION_ARCHETYPE_FEATURE_TRANSCENDED_STATE_OF_MIND" />
-						</element>
-					</element>
-					<element type="Class Feature" name="Psionics" id="ID_KT_PSION_CLASS_FEATURE_PSION_PSIONICS" />
-					<element type="Grants" name="Multiclass" id="ID_INTERNAL_GRANT_MULTICLASS" />
-				</element>
-				<element type="Grants" name="Multiclassing (Level 9)" id="ID_INTERNAL_MULTICLASS_LEVEL_9" />
-			</element>
+			<element type="Level" name="9" id="ID_LEVEL_9" />
+			<element type="Level" name="10" id="ID_LEVEL_10" />
+			<element type="Level" name="11" id="ID_LEVEL_11" />
 			<element type="Item" name="Additional Feat, Script Carver" id="ID_DMHM_INTERNAL_ITEM_FEAT_PROXY_SCRIPT_CARVER">
 				<element type="Feat" name="Script Carver" id="ID_KBP_DMHM_FEAT_SCRIPT_CARVER">
 					<element type="Feat Feature" name="Hieroglyph, Script Carver" requiredLevel="1" number="1" checksum="65863723" registered="ID_KBP_DMHM_FEAT_FEATURE_HIEROGLYPH_REPULSEDFIENDS_HIEROGLYPH">
@@ -440,7 +431,6 @@
 				</details>
 			</item>
 			<item identifier="e6d735a0-dab0-4a29-8050-f1eafb7b99ef" name="Glaive" id="ID_WOTC_PHB_WEAPON_GLAIVE">
-				<equipped location="Two-Handed">true</equipped>
 				<details card="true">
 					<name>
 					</name>
@@ -480,8 +470,62 @@
 					</notes>
 				</details>
 			</item>
+			<item identifier="85739bfb-24ce-403f-9b8a-a53076e76808" name="Ruby" id="ID_WOTC_DMG_ITEM_GEMSTONE_RUBY" sidebar="true">
+				<details card="true">
+					<name>
+					</name>
+					<notes>Worth an unknown rarer amount</notes>
+				</details>
+			</item>
+			<item identifier="c26aba64-84d6-4f0f-9ebe-64e377096ebc" name="Longbow" id="ID_WOTC_PHB_WEAPON_LONGBOW">
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
+			<item identifier="b388eca8-6b3a-4064-ad93-b4584bf1df33" name="Potion of Greater Healing" id="ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_GREATER_HEALING">
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
+			<item identifier="39e33ee5-4619-484d-b6b4-354d425f45d6" name="Ring of the Ram" id="ID_WOTC_DMG_MAGIC_ITEM_RING_OF_THE_RAM" sidebar="true">
+				<attunement>true</attunement>
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
+			<item identifier="1ded5d1d-5273-408f-94ac-a846cbe42e77" name="Shield" id="ID_WOTC_GEAR_SHIELD">
+				<equipped location="Secondary Hand">true</equipped>
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
+			<item identifier="c9003c2a-017c-4a11-aa49-60fac9cf8291" name="Mace" id="ID_WOTC_PHB_WEAPON_MACE" sidebar="true">
+				<equipped location="Primary Hand">true</equipped>
+				<attunement>true</attunement>
+				<items>
+					<adorner name="Saint Markovia’s Thighbone" id="ID_WOTC_COS_MAGIC_ITEM_SAINT_MARKOVIAS_THIGHBONE" />
+				</items>
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
 		</equipment>
-		<sum element-count="165">
+		<sum element-count="162">
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASS_SPELLCASTING" />
@@ -512,6 +556,7 @@
 			<element type="Language" id="ID_LANGUAGE_INFERNAL" />
 			<element type="Background Feature" id="ID_WOTC_VRGTR_BACKGROUND_FEATURE_TRAUMA_SURVIVOR" />
 			<element type="Grants" id="ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<element type="Alignment" id="ID_ALIGNMENT_LAWFUL_NEUTRAL" />
 			<element type="Deity" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_PLANE_SHIFT_AMONKHET_DEITY_HAZORET" />
 			<element type="Level" id="ID_LEVEL_2" />
 			<element type="Level" id="ID_LEVEL_3" />
@@ -527,10 +572,11 @@
 			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_STRENGTH" />
 			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_STRENGTH" />
 			<element type="Level" id="ID_LEVEL_9" />
-			<element type="Grants" id="ID_INTERNAL_MULTICLASS_LEVEL_9" />
-			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_GLAIVE" />
+			<element type="Level" id="ID_LEVEL_10" />
 			<element type="Item" id="ID_DMHM_INTERNAL_ITEM_FEAT_PROXY_SCRIPT_CARVER" />
 			<element type="Feat" id="ID_KBP_DMHM_FEAT_SCRIPT_CARVER" />
+			<element type="Magic Item" id="ID_WOTC_DMG_MAGIC_ITEM_RING_OF_THE_RAM" />
+			<element type="Armor" id="ID_WOTC_GEAR_SHIELD" />
 			<element type="Feat Feature" id="ID_KBP_DMHM_FEAT_FEATURE_HIEROGLYPH_REPULSEDFIENDS_HIEROGLYPH" />
 			<element type="Feat Feature" id="ID_KBP_DMHM_FEAT_FEATURE_HIEROGLYPH_REPULSEDFIENDS_HIEROGLYPH_BONUS" />
 			<element type="Feat Feature" id="ID_KBP_DMHM_FEAT_FEATURE_HIEROGLYPH_REPULSEDFIENDS_HIEROGLYPH_POWER_1" />
@@ -539,6 +585,9 @@
 			<element type="Feat Feature" id="ID_KBP_DMHM_FEAT_FEATURE_HIEROGLYPH_TALONSHAWK_HIEROGLYPH_BONUS" />
 			<element type="Feat Feature" id="ID_KBP_DMHM_FEAT_FEATURE_HIEROGLYPH_TALONSHAWK_HIEROGLYPH_POWER_1" />
 			<element type="Feat Feature" id="ID_KBP_DMHM_FEAT_FEATURE_HIEROGLYPH_TALONSHAWK_HIEROGLYPH_POWER_2" />
+			<element type="Level" id="ID_LEVEL_11" />
+			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_MACE" />
+			<element type="Magic Item" id="ID_WOTC_COS_MAGIC_ITEM_SAINT_MARKOVIAS_THIGHBONE" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_FIGHTER" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED" />
@@ -628,34 +677,19 @@
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MARTIALARCHETYPE" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_FIGHTER" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_EXTRAATTACK" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_INDOMITABLE" />
 			<element type="Class Feature" id="ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_INTERCEPTION" />
 			<element type="Archetype" id="ID_DANDWIKI_ARCHETYPE_FIGHTER_MOONSHADOW_WARRIOR" />
 			<element type="Archetype Feature" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_LUNAR_AFFINITY" />
 			<element type="Archetype Feature" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_MOONLIT_RESISITANCE" />
 			<element type="Archetype Feature" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_SHADOWSTEP" />
+			<element type="Archetype Feature" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_LUNAR_DIVERGENCE" />
 			<element type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_ASI_4_FIGHTER" />
 			<element type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_FEAT_6_FIGHTER" />
 			<element type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_ASI_8_FIGHTER" />
-			<element type="Multiclass" id="ID_KT_PSION_MULTICLASS_PSION" />
-			<element type="Proficiency" id="ID_KT_PSION_PROFICIENCY_SKILL_PSIONICS" />
-			<element type="Class Feature" id="ID_KT_PSION_CLASS_FEATURE_PSION_PSIONIC_ARCHETYPE" />
-			<element type="Class Feature" id="ID_KT_PSION_CLASS_FEATURE_PSION_PSIONICS" />
-			<element type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
-			<element type="Archetype" id="ID_KT_PSION_ARCHETYPE_PSION_TRANSCENDED" />
-			<element type="Archetype Feature" id="ID_KT_PSION_ARCHETYPE_FEATURE_TRANSCENDED_ENLIGHTENED" />
-			<element type="Class Feature" id="ID_KT_PSION_CLASS_FEATURE_PSIONIC_DISCIPLINE_ENHANCEMENT_DISCIPLINE" />
-			<element type="Grants" id="ID_INTERNAL_GRANT_KT_PSIONIC_DISCIPLINE" />
-			<element type="Spell" id="ID_KT_PSION_PSIONIC_POWER_ENHANCING_SURGE" />
-			<element type="Archetype Feature" id="ID_KT_PSION_ARCHETYPE_FEATURE_TRANSCENDED_STATE_OF_MIND" />
+			<element type="Archetype Feature" id="ID_DANDWIKI_ARCHETYPE_FEATURE_MOONSHADOW_WARRIOR_LUNAR_DIVERGENCE_SHADOW_LANCE" />
 		</sum>
-		<magic multiclass="true">
-			<spellcasting name="Psion" ability="Intelligence" attack="6" dc="14" source="ID_KT_PSION_CLASS_FEATURE_PSION_PSIONICS">
-				<slots s1="0" s2="0" s3="0" s4="0" s5="0" s6="0" s7="0" s8="0" s9="0" />
-				<cantrips />
-				<spells>
-					<spell name="Enhancing Surge" level="1" id="ID_KT_PSION_PSIONIC_POWER_ENHANCING_SURGE" known="true" />
-				</spells>
-			</spellcasting>
+		<magic>
 			<additional>
 				<spell name="Twist the Skein" level="1" id="ID_KBP_DMCD_SPELL_TWIST_THE_SKEIN" source="Clairvoyant Warrior" />
 			</additional>
@@ -973,82 +1007,6 @@
 			<element>ID_WOTC_PHB24_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_PRIEST</element>
 			<element>ID_WOTC_PHB24_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_GODS_BLESSING</element>
 			<element>ID_WOTC_PHB24_ARCHETYPE_FEATURE_WAR_DOMAIN_AVATAR_OF_BATTLE</element>
-			<element>ID_WOTC_MM25_COMPANION_BADGER</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_BADGER_BITE</element>
-			<element>ID_WOTC_MM25_COMPANION_BAT</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_BAT_BITE</element>
-			<element>ID_WOTC_MM25_COMPANION_CAT</element>
-			<element>ID_WOTC_MM25_COMPANION_TRAIT_CAT_JUMPER</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_CAT_SCRATCH</element>
-			<element>ID_WOTC_MM25_COMPANION_CRAB</element>
-			<element>ID_WOTC_MM25_COMPANION_TRAIT_CRAB_AMPHIBIOUS</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_CRAB_CLAW</element>
-			<element>ID_WOTC_MM25_COMPANION_FROG</element>
-			<element>ID_WOTC_MM25_COMPANION_TRAIT_FROG_AMPHIBIOUS</element>
-			<element>ID_WOTC_MM25_COMPANION_TRAIT_FROG_STANDING_LEAP</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_FROG_BITE</element>
-			<element>ID_WOTC_MM25_COMPANION_GOAT</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_GOAT_RAM</element>
-			<element>ID_WOTC_MM25_COMPANION_HAWK</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_HAWK_TALONS</element>
-			<element>ID_WOTC_MM25_COMPANION_LIZARD</element>
-			<element>ID_WOTC_MM25_COMPANION_TRAIT_LIZARD_SPIDER_CLIMB</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_LIZARD_BITE</element>
-			<element>ID_WOTC_MM25_COMPANION_OCTOPUS</element>
-			<element>ID_WOTC_MM25_COMPANION_TRAIT_OCTOPUS_COMPRESSION</element>
-			<element>ID_WOTC_MM25_COMPANION_TRAIT_OCTOPUS_WATER_BREATHING</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_OCTOPUS_TENTACLES</element>
-			<element>ID_WOTC_MM25_COMPANION_REACTION_OCTOPUS_INK_CLOUD</element>
-			<element>ID_WOTC_MM25_COMPANION_OWL</element>
-			<element>ID_WOTC_MM25_COMPANION_TRAIT_OWL_FLYBY</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_OWL_TALONS</element>
-			<element>ID_WOTC_MM25_COMPANION_RAT</element>
-			<element>ID_WOTC_MM25_COMPANION_TRAIT_RAT_AGILE</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_RAT_BITE</element>
-			<element>ID_WOTC_MM25_COMPANION_RAVEN</element>
-			<element>ID_WOTC_MM25_COMPANION_TRAIT_RAVEN_MIMICRY</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_RAVEN_BEAK</element>
-			<element>ID_WOTC_MM25_COMPANION_SCORPION</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_SCORPION_STING</element>
-			<element>ID_WOTC_MM25_COMPANION_SPIDER</element>
-			<element>ID_WOTC_MM25_COMPANION_TRAIT_SPIDER_SPIDER_CLIMB</element>
-			<element>ID_WOTC_MM25_COMPANION_TRAIT_SPIDER_WEB_WALKER</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_SPIDER_BITE</element>
-			<element>ID_WOTC_MM25_COMPANION_WEASEL</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_WEASEL_BITE</element>
-			<element>ID_WOTC_MM25_COMPANION_IMP</element>
-			<element>ID_WOTC_MM25_COMPANION_TRAIT_IMP_MAGIC_RESISTANCE</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_IMP_STING</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_IMP_INVISIBILITY</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_SHAPESHIFT</element>
-			<element>ID_WOTC_MM25_COMPANION_PSEUDODRAGON</element>
-			<element>ID_WOTC_MM25_COMPANION_TRAIT_PSEUDODRAGON_MAGIC_RESISTANCE</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_PSEUDODRAGON_MULTIATTACK</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_PSEUDODRAGON_BITE</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_PSEUDODRAGON_STING</element>
-			<element>ID_WOTC_MM25_COMPANION_QUASIT</element>
-			<element>ID_WOTC_MM25_COMPANION_TRAIT_QUASIT_MAGIC_RESISTANCE</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_QUASIT_REND</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_QUASIT_INVISIBILITY</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_QUASIT_SCARE</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_QUASIT_SHAPESHIFT</element>
-			<element>ID_WOTC_MM25_COMPANION_SKELETON</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_SKELETON_SHORTSWORD</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_SKELETON_SHORTBOW</element>
-			<element>ID_WOTC_MM25_COMPANION_SLAAD_TADPOLE</element>
-			<element>ID_WOTC_MM25_COMPANION_TRAIT_SLAAD_TADPOLE_MAGIC_RESISTANCE</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_SLAAD_TADPOLE_BITE</element>
-			<element>ID_WOTC_MM25_COMPANION_SPHINX_OF_WONDER</element>
-			<element>ID_WOTC_MM25_COMPANION_TRAIT_SPHINX_OF_WONDER_MAGIC_RESISTANCE</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_SPHINX_OF_WONDER_REND</element>
-			<element>ID_WOTC_MM25_COMPANION_REACTION_SPHINX_OF_WONDER_BURST_OF_INGENUITY</element>
-			<element>ID_WOTC_MM25_COMPANION_SPRITE</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_SPRITE_NEEDLE_SWORD</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_SPRITE_ENCHANTING_BOW</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_SPRITE_HEART_SIGHT</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_SPRITE_INVISIBILITY</element>
-			<element>ID_WOTC_MM25_COMPANION_VENOMOUS_SNAKE</element>
-			<element>ID_WOTC_MM25_COMPANION_ACTION_VENOMOUS_SNAKE_BITE</element>
 			<element>ID_WOTC_PHB24_ARCHETYPE_DRUID_CIRCLE_OF_THE_LAND</element>
 			<element>ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_CIRCLE_OF_LAND_SPELLS</element>
 			<element>ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_CIRCLE_OF_LAND_SPELLS_ARID</element>
@@ -1433,21 +1391,13 @@
 			<element>ID_WOTC_PHB24_ITEM_WATERSKIN</element>
 			<element>ID_WOTC_PHB24_ITEM_BARDING</element>
 			<element>ID_WOTC_PHB24_ITEM_CAMEL</element>
-			<element>ID_WOTC_PHB24_INFORMATION_CAMEL</element>
 			<element>ID_WOTC_PHB24_ITEM_ELEPHANT</element>
-			<element>ID_WOTC_PHB24_INFORMATION_ELEPHANT</element>
 			<element>ID_WOTC_PHB24_ITEM_HORSE_DRAFT</element>
-			<element>ID_WOTC_PHB24_INFORMATION_HORSE_DRAFT</element>
 			<element>ID_WOTC_PHB24_ITEM_HORSE_RIDING</element>
-			<element>ID_WOTC_PHB24_INFORMATION_HORSE_RIDING</element>
 			<element>ID_WOTC_PHB24_ITEM_MASTIFF</element>
-			<element>ID_WOTC_PHB24_INFORMATION_MASTIFF</element>
 			<element>ID_WOTC_PHB24_ITEM_MULE</element>
-			<element>ID_WOTC_PHB24_INFORMATION_MULE</element>
 			<element>ID_WOTC_PHB24_ITEM_PONY</element>
-			<element>ID_WOTC_PHB24_INFORMATION_PONY</element>
 			<element>ID_WOTC_PHB24_ITEM_WARHORSE</element>
-			<element>ID_WOTC_PHB24_INFORMATION_WARHORSE</element>
 			<element>ID_WOTC_PHB24_ITEM_CARRIAGE</element>
 			<element>ID_WOTC_PHB24_ITEM_CART</element>
 			<element>ID_WOTC_PHB24_ITEM_CHARIOT</element>
